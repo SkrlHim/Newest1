@@ -1,4 +1,4 @@
-@type {import('next').NextConfig}
+{module.imports('next').NextConfig}
 
 const nextConfig = {
   eslint: {
